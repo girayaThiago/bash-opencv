@@ -22,7 +22,7 @@ You probably this in terminal
 
 #### To build all C++ program 
 1) ```g++ programa.cpp -o program `pkg-config --cflags --libs opencv` ```
-2) ./programa
+2) ./program
 
 #### To build this tutorial present in repository. 
 1) ```g++ test_opencv.cpp -o name `pkg-config --cflags --libs opencv` ```
