@@ -1,5 +1,6 @@
+echo "this file was eddited from https://github.com/brunojus/bash-opencv.git to download openCV version 2.4.13"
 
-version="$(wget -q -O - http://sourceforge.net/projects/opencvlibrary/files/opencv-unix | egrep -m1 -o '\"[0-9](\.[0-9]+)+' | cut -c2-)"
+version="2.4.13"
 echo "Installing OpenCV" $version
 
 mkdir OpenCV

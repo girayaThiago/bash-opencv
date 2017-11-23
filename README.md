@@ -1,7 +1,9 @@
+### This is a fork from https://github.com/brunojus/bash-opencv.git to download OpenCV version 2.4.13
+
                                 First Step
                                 
 #### Clone this project
-git clone https://github.com/brunojus/bash-opencv.git
+git clone https://github.com/girayaThiago/bash-opencv.git
 
                             Second Step
 ### cd bash-opencv/
