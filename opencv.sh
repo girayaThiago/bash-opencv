@@ -49,6 +49,10 @@ echo "<-------********------For Python------********-------->"
 echo sudo apt-get install python-dev python-tk python-numpy python3-dev python3-tk python3-numpy python-matplotlib
 sudo apt-get install python-opencv
 
+echo "<------------------------------------------------for JSON handling------------------------------------------------->"
+echo "<-------********------Boost Library------********-------->"
+sudo apt-get install libboost-all-dev
+
 echo "%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%"
 echo "Downloading OpenCV" $version
 wget -O OpenCV-$version.zip http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/$version/opencv-"$version".zip/download
@@ -89,4 +93,3 @@ echo "***********************************"
 sudo ldconfig
 
 echo "OpenCV" $version "ready to be used"
-
